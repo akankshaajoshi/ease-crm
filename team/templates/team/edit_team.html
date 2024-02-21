@@ -1,0 +1,9 @@
+{%extends 'core/base.html'%} {%block title%}Edit Team{%endblock%} {%block content%}
+<div class="py-6 px-6">
+  <h1 class="text-3xl font-bold mb-4">Edit Team {{team.name}}</h1>
+  <form method="post" action=".">
+    {%csrf_token%} {{form.as_p}}
+    <button class="m-4 py-4 px-8 bg-blue-500 text-white rounded-xl">Edit</button>
+  </form>
+</div>
+{%endblock%}
