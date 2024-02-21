@@ -1,3 +1,5 @@
+EaseCRM is a customer relationship management sysetm built with Django, TailwindCss, and SQLite. 
+
 Preview:
 
 LOGIN ![log in](https://github.com/akankshaajoshi/ease-crm/assets/91690660/a4f745a4-aa28-44db-96ca-d31b587f5c2a)
